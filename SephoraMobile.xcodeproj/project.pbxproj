@@ -79,8 +79,24 @@
 		890BB68829245B71009F7FAD /* Moduls */ = {
 			isa = PBXGroup;
 			children = (
+				890BB68A29245D95009F7FAD /* MainModuls */,
+				890BB68929245D84009F7FAD /* CommonModuls */,
 			);
 			path = Moduls;
+			sourceTree = "<group>";
+		};
+		890BB68929245D84009F7FAD /* CommonModuls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonModuls;
+			sourceTree = "<group>";
+		};
+		890BB68A29245D95009F7FAD /* MainModuls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainModuls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

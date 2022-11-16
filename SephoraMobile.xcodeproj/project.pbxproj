@@ -14,6 +14,9 @@
 		890BB67D292382B7009F7FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890BB67C292382B7009F7FAD /* Assets.xcassets */; };
 		890BB680292382B7009F7FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890BB67E292382B7009F7FAD /* LaunchScreen.storyboard */; };
 		899318C42924E81100A516AA /* testPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899318C32924E81100A516AA /* testPush.swift */; };
+		899318C62924E88B00A516AA /* testCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899318C52924E88B00A516AA /* testCommon.swift */; };
+		899318C82924E8A100A516AA /* testTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899318C72924E8A100A516AA /* testTextField.swift */; };
+		899318CA2924E8AF00A516AA /* testButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899318C92924E8AF00A516AA /* testButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		890BB67F292382B7009F7FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		890BB681292382B7009F7FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		899318C32924E81100A516AA /* testPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testPush.swift; sourceTree = "<group>"; };
+		899318C52924E88B00A516AA /* testCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCommon.swift; sourceTree = "<group>"; };
+		899318C72924E8A100A516AA /* testTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTextField.swift; sourceTree = "<group>"; };
+		899318C92924E8AF00A516AA /* testButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,13 +45,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6DF533C22924E432006AF82B /* test */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
 		890BB667292382B6009F7FAD = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +64,6 @@
 		890BB672292382B6009F7FAD /* SephoraMobile */ = {
 			isa = PBXGroup;
 			children = (
-				6DF533C22924E432006AF82B /* test */,
 				890BB68829245B71009F7FAD /* Moduls */,
 				890BB68729245B3A009F7FAD /* CommonUI */,
 				890BB673292382B6009F7FAD /* AppDelegate.swift */,
@@ -100,6 +98,7 @@
 		890BB68929245D84009F7FAD /* CommonModuls */ = {
 			isa = PBXGroup;
 			children = (
+				899318C52924E88B00A516AA /* testCommon.swift */,
 			);
 			path = CommonModuls;
 			sourceTree = "<group>";
@@ -123,6 +122,7 @@
 		899318C02924B9A800A516AA /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				899318C92924E8AF00A516AA /* testButton.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -130,6 +130,7 @@
 		899318C12924B9B800A516AA /* TextField */ = {
 			isa = PBXGroup;
 			children = (
+				899318C72924E8A100A516AA /* testTextField.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -205,10 +206,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899318C62924E88B00A516AA /* testCommon.swift in Sources */,
 				890BB678292382B6009F7FAD /* ViewController.swift in Sources */,
+				899318CA2924E8AF00A516AA /* testButton.swift in Sources */,
 				899318C42924E81100A516AA /* testPush.swift in Sources */,
 				890BB674292382B6009F7FAD /* AppDelegate.swift in Sources */,
 				890BB676292382B6009F7FAD /* SceneDelegate.swift in Sources */,
+				899318C82924E8A100A516AA /* testTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

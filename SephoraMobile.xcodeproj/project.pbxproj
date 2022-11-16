@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DF533C42924EDB0006AF82B /* OnBoardingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF533C32924EDB0006AF82B /* OnBoardingVC.xib */; };
 		890BB674292382B6009F7FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BB673292382B6009F7FAD /* AppDelegate.swift */; };
 		890BB676292382B6009F7FAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BB675292382B6009F7FAD /* SceneDelegate.swift */; };
 		890BB678292382B6009F7FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890BB677292382B6009F7FAD /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6DF533C32924EDB0006AF82B /* OnBoardingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingVC.xib; sourceTree = "<group>"; };
 		890BB670292382B6009F7FAD /* SephoraMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SephoraMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		890BB673292382B6009F7FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		890BB675292382B6009F7FAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				899318C32924E81100A516AA /* testPush.swift */,
+				6DF533C32924EDB0006AF82B /* OnBoardingVC.xib */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				890BB680292382B7009F7FAD /* LaunchScreen.storyboard in Resources */,
+				6DF533C42924EDB0006AF82B /* OnBoardingVC.xib in Resources */,
 				890BB67D292382B7009F7FAD /* Assets.xcassets in Resources */,
 				890BB67B292382B6009F7FAD /* Main.storyboard in Resources */,
 			);

@@ -37,6 +37,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DF533C22924E432006AF82B /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
 		890BB667292382B6009F7FAD = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +63,7 @@
 		890BB672292382B6009F7FAD /* SephoraMobile */ = {
 			isa = PBXGroup;
 			children = (
+				6DF533C22924E432006AF82B /* test */,
 				890BB68829245B71009F7FAD /* Moduls */,
 				890BB68729245B3A009F7FAD /* CommonUI */,
 				890BB673292382B6009F7FAD /* AppDelegate.swift */,
